@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-08T16:19:04 IST" name="Suite" finished-at="2022-12-08T16:19:31 IST" duration-ms="26557">
+  <suite started-at="2022-12-19T17:22:05 IST" name="Suite" finished-at="2022-12-19T17:22:59 IST" duration-ms="54306">
     <groups>
     </groups>
-    <test started-at="2022-12-08T16:19:04 IST" name="Test" finished-at="2022-12-08T16:19:31 IST" duration-ms="26557">
+    <test started-at="2022-12-19T17:22:05 IST" name="Test" finished-at="2022-12-19T17:22:59 IST" duration-ms="54306">
       <class name="TestCases.LoginTestCases">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTestCases@bd4dc25]" started-at="2022-12-08T16:19:04 IST" name="launch" finished-at="2022-12-08T16:19:10 IST" duration-ms="5482" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.LoginTestCases@bd4dc25]" started-at="2022-12-19T17:22:05 IST" name="launch" finished-at="2022-12-19T17:22:27 IST" duration-ms="22321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="login()[pri:0, instance:TestCases.LoginTestCases@bd4dc25]" started-at="2022-12-08T16:19:10 IST" name="login" finished-at="2022-12-08T16:19:11 IST" duration-ms="1289" status="FAIL">
+        <test-method signature="login()[pri:0, instance:TestCases.LoginTestCases@bd4dc25]" started-at="2022-12-19T17:22:27 IST" name="login" finished-at="2022-12-19T17:22:28 IST" duration-ms="1252" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -60,11 +60,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- login -->
       </class> <!-- TestCases.LoginTestCases -->
       <class name="TestCases.signuptestcases">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.signuptestcases@593aaf41]" started-at="2022-12-08T16:19:11 IST" name="launch" finished-at="2022-12-08T16:19:15 IST" duration-ms="4101" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestCases.signuptestcases@593aaf41]" started-at="2022-12-19T17:22:28 IST" name="launch" finished-at="2022-12-19T17:22:38 IST" duration-ms="9062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="signup()[pri:0, instance:TestCases.signuptestcases@593aaf41]" started-at="2022-12-08T16:19:15 IST" name="signup" finished-at="2022-12-08T16:19:31 IST" duration-ms="15604" status="PASS">
+        <test-method signature="signup()[pri:0, instance:TestCases.signuptestcases@593aaf41]" started-at="2022-12-19T17:22:38 IST" name="signup" finished-at="2022-12-19T17:22:59 IST" duration-ms="21577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signup -->
