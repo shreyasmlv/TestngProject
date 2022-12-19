@@ -22,13 +22,28 @@ public class signuptestcases extends Baseclass {
 		 
 		 SignUpPageObjects SPO=new SignUpPageObjects(driver);
 		 SPO.enterfirstname().sendKeys(constant.firstname);
+		 Thread.sleep(3000);
 		 SPO.enterlastname().sendKeys(constant.lastname);
+		 Thread.sleep(3000);
+
 		 SPO.enterworkemail().sendKeys(constant.workemail);
+		 Thread.sleep(3000);
+
 		 SPO.entercompany().sendKeys(constant.company);
+		 Thread.sleep(3000);
+
 		 SPO.enterphone().sendKeys(constant.phone);
+		 Thread.sleep(3000);
+
 		commonmethods.selectdropdowns(SPO.selectjobtitle(), 2);
+		Thread.sleep(3000);
+
 		commonmethods.selectdropdowns(SPO.employees(), 1);
+		Thread.sleep(3000);
+
 		 commonmethods.selectdropdowns(SPO.selectcountry(), 6);
+		 Thread.sleep(3000);
+
 		 SPO.checkbox().click();
 		
 	}
